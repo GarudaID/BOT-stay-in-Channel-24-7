@@ -1,0 +1,36 @@
+{
+  "name": "stay in channel 24/7",
+  "version": "2.0.0",
+  "description": "Always Stay in channel 24/7",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarudaID/BOT-stay-in-Channel-24-7.git"
+  },
+  "keywords": [
+    "musicbot",
+    "discord",
+    "music",
+    "discordbot",
+    "live",
+    "24/7"
+  ],
+  "author": "GarudaID",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GarudaID/BOT-stay-in-Channel-24-7/issues"
+  },
+  "homepage": "https://github.com/GarudaID/BOT-stay-in-Channel-24-7#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.4.0",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
+    "ytdl-core": "^4.4.5"
+  },
+  "devDependencies": {}
+}

@@ -6,12 +6,12 @@
 ██║░╚██╗██║░░██║██║██╔╝╚██╗██║██║░╚███║
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝
 ////////////////////////////////////////////////////////////////////////
-const { TOKEN, CHANNEL_ID, SERVER_ID, YT_LINK } = require("./config.json");
+const { TOKEN, CHANNEL_ID, SERVER_ID, YT_LINK } = require("./config.json")
 const { STATUS } = require("./status.json")
 const discord = require("discord.js");
 const client = new discord.Client();
 const ytdl = require('ytdl-core');
-const { keep_alive } = require("./keep_alive");
+const { keep_alive } = require("./keep_alive")
 
 client.on('ready', async () => {
   console.log("Started streaming " + (YT_LINK) + ` as ${client.user.tag}`);
